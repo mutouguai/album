@@ -11,13 +11,21 @@
 (function($) {
     //图片列表
     var imglist = [{
+        src: 'images/fulls/natural.jpg',
+        title: 'Natural',
+        desc: 'Beautiful natural scenery.'
+    },{
+        src: 'images/fulls/Animegirl.jpg',
+        title: 'Animegirl',
+        desc: 'Anime illustration - beautiful girl.'
+    },{
+        src: 'images/fulls/EiffelTower.jpg',
+        title: 'Eiffel Tower',
+        desc: 'Trinket gifts - Eiffel Tower.'
+    },{
         src: 'images/fulls/park.jpg',
         title: 'Park',
         desc: 'Everything is picturesque in the autumn park.'
-    },{
-        src: 'images/fulls/Venice.jpg',
-        title: 'Venice',
-        desc: 'Fashion capital Venice.'
     },{
         src: 'images/fulls/01.jpg',
         title: 'Diam tempus accumsan',
