@@ -11,74 +11,74 @@
 (function($) {
     //图片列表
     var imglist = [{
-        src: 'images/fulls/natural.jpg',
+        src: 'natural.jpg',
         title: 'Natural',
         desc: 'Beautiful natural scenery.'
     },{
-        src: 'images/fulls/Animegirl.jpg',
+        src: 'Animegirl.jpg',
         title: 'Animegirl',
         desc: 'Anime illustration - beautiful girl.'
     },{
-        src: 'images/fulls/EiffelTower.jpg',
+        src: 'EiffelTower.jpg',
         title: 'Eiffel Tower',
         desc: 'Trinket gifts - Eiffel Tower.'
     },{
-        src: 'images/fulls/park.jpg',
+        src: 'park.jpg',
         title: 'Park',
         desc: 'Everything is picturesque in the autumn park.'
     },{
-        src: 'images/fulls/01.jpg',
+        src: '01.jpg',
         title: 'Diam tempus accumsan',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },{
-        src: 'images/fulls/02.jpg',
+        src: '02.jpg',
         title: 'Vivamus convallis libero',
         desc: 'Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.'
     },{
-        src: 'images/fulls/03.jpg',
+        src: '03.jpg',
         title: 'Nec accumsan enim felis',
         desc: 'Maecenas eleifend tellus ut turpis eleifend, vitae pretium faucibus.'
     },{
-        src: 'images/fulls/04.jpg',
+        src: '04.jpg',
         title: 'Donec maximus nisi eget',
         desc: 'Tristique in nulla vel congue. Sed sociis natoque parturient nascetur.'
     },{
-        src: 'images/fulls/05.jpg',
+        src: '05.jpg',
         title: 'Nullam vitae nunc vulputate',
         desc: 'In pellentesque cursus velit id posuere. Donec vehicula nulla.'
     },{
-        src: 'images/fulls/06.jpg',
+        src: '06.jpg',
         title: 'Phasellus magna faucibus',
         desc: 'Nulla dignissim libero maximus tellus varius dictum ut posuere magna.'
     },{
-        src: 'images/fulls/07.jpg',
+        src: '07.jpg',
         title: 'Proin quis mauris',
         desc: 'Etiam ultricies, lorem quis efficitur porttitor, facilisis ante orci urna.'
     },{
-        src: 'images/fulls/08.jpg',
+        src: '08.jpg',
         title: 'Gravida quis varius enim',
         desc: 'Nunc egestas congue lorem. Nullam dictum placerat ex sapien tortor mattis.'
     },{
-        src: 'images/fulls/09.jpg',
+        src: '09.jpg',
         title: 'Morbi eget vitae adipiscing',
         desc: 'In quis vulputate dui. Maecenas metus elit, dictum praesent lacinia lacus.'
     },{
-        src: 'images/fulls/10.jpg',
+        src: '10.jpg',
         title: 'Habitant tristique senectus',
         desc: 'Vestibulum ante ipsum primis in faucibus orci luctus ac tincidunt dolor.'
     },{
-        src: 'images/fulls/11.jpg',
+        src: '11.jpg',
         title: 'Pharetra ex non faucibus',
         desc: 'Ut sed magna euismod leo laoreet congue. Fusce congue enim ultricies.'
     },{
-        src: 'images/fulls/12.jpg',
+        src: '12.jpg',
         title: 'Mattis lorem sodales',
         desc: 'Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla.'
     }];
 
     var html = '';
     for (var i = 0; i < imglist.length; i++) {
-        html += '<article><a class="thumbnail" href="' + imglist[i].src + '"><img src="' + imglist[i].src + '" alt="" /></a>';
+        html += '<article><a class="thumbnail" href="images/fulls/' + imglist[i].src + '"><img src="images/thumbs/' + imglist[i].src + '" alt="" /></a>';
         html += '<h2>' + imglist[i].title + '</h2><p>' + imglist[i].desc + '</p></article>';
     }
     $('#thumbnails').append(html);
