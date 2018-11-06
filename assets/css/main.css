@@ -714,11 +714,11 @@
 		-webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
 		-ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
 		transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		/*-webkit-overflow-scrolling: touch;*/
+		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
 		width: 22.5em;
-		height: 100%;
+		height: calc(100% + 1px);
 		background: #fff;
 		outline: 0;
 		overflow-x: hidden;
